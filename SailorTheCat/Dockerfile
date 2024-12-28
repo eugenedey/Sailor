@@ -5,17 +5,16 @@ ARG TARGETARCH
 WORKDIR /source
 
 # Copy project file and restore as distinct layers
-COPY --link SailorTheCat/*.csproj .
+COPY --link *.csproj .
 RUN dotnet restore -a $TARGETARCH
 
 # Copy source code and publish app
-COPY --link SailorTheCat/. .
+COPY --link . .
 RUN dotnet publish -a $TARGETARCH --no-restore -o /app
 
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:9.0
-EXPOSE 8080
+FROM mcr.microsoft.com/dotnet/runtime:9.0
 WORKDIR /app
 COPY --link --from=build /app .
 USER $APP_UID
