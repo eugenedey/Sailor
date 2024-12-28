@@ -1,3 +1,5 @@
+name: Deploy
+
 on:
   workflow_run:
     workflows: [.NET]
@@ -9,6 +11,24 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - run: echo 'The triggering workflow passed'
+          - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226 # v3.0.0
+
+      - name: Log in to container registry
+        uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3.0.0
+        with:
+          registry: net8reg4ed.azurecr.io
+          username: $AZ_REG_ADM
+          password: $AZ_REG_PASS
+
+      - name: Build and push container image to registry
+        uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
+        with:
+          push: true
+          tags: net8reg4ed.azurecr.io/sailor-the-cat:1.45
+          file: ./SailorTheCat/Dockerfile
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
