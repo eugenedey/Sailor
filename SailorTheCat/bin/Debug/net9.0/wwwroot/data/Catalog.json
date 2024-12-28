@@ -1,0 +1,83 @@
+[
+  {
+    "Id": "Sailor-001",
+    "img": "./images/sailor01.jpg",
+    "Title": "Hello, Stranger!",
+    "Description": "My name is Sailor, and I am native Iowan cat. I live in West Des Moines, and I am a plump man in full bloom!",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-002",
+    "img": "./images/sailor02.jpg",
+    "Title": "I like IT devices!",
+    "Description": "In my house there are a lot of wierd things.They make a lot of weird noises and keep me warm, I like \u0027em!",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-003",
+    "img": "./images/sailor03.jpg",
+    "Title": "I like to hunt paper rolls!",
+    "Description": "If you want to keep me entertained - give me a paper roll. I will show the real cats\u0027 nature!",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-004",
+    "img": "./images/sailor04.jpg",
+    "Title": "I like the spooky Halloween!",
+    "Description": "All my quality time I spend outside the house. I like walking, hunting, and sleep on the open air.",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-005",
+    "img": "./images/sailor05.jpg",
+    "Title": "I like sleeping in the Garden.",
+    "Description": "Garden is outside, and I like being outside!",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-006",
+    "img": "./images/sailor06.jpg",
+    "Title": "I am a great listener.",
+    "Description": "Me-ow listen without distractions, don\u0027t pre-judge the messages, keep eyes on the speaker, and communicate interest.",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-007",
+    "img": "./images/sailor07.jpg",
+    "Title": "I am super cute!",
+    "Description": "You see I am cute, and I know how to use feline wiles to lure you into forking over some extra yum yums..",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-008",
+    "img": "./images/sailor08.jpg",
+    "Title": "I am a great mice hunter!",
+    "Description": "No worries, no mice get in the house from the basement!",
+    "Ratings": [
+      4
+    ]
+  },
+  {
+    "Id": "Sailor-009",
+    "img": "./images/sailor09.jpg",
+    "Title": "Be Happy and Smile!",
+    "Description": "This is my piece of advice to YOU! Thank you for visiting my web site!",
+    "Ratings": [
+      4
+    ]
+  }
+]

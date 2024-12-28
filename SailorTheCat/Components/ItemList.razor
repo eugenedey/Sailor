@@ -1,0 +1,142 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using SailorTheCat.Models
+@using SailorTheCat.Services
+@inject JsonFileCatalogService CatalogService
+
+<div class="card-columns">
+    @foreach (var catalogitem in CatalogService.GetCatalogItems())
+    {
+        <a href="javascript:void(0)" >
+        <div class="card"
+            @onclick="(e => SelectItem(catalogitem.Id))"
+         @onmouseover="(e => GetItemID(catalogitem.Id))"
+             data-toggle="modal" data-target="#productModal">
+            
+                <div class="card-img" style="background-image: url('@catalogitem.Img')">
+
+            
+                    
+                    </div>            
+            
+            <div class="card-body">
+                <h5>@catalogitem.Title</h5>
+                    <a name="@catalogitem.Id"></a>
+            </div>
+            
+        </div>
+        </a>
+
+        <div calss="card-footer">
+            <small class="text-muted">
+                
+                <!--
+                <button @onclick="(e => SelectItem(catalogitem.Id))"
+                        @onmouseover="(e => GetItemID(catalogitem.Id))"
+                        data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                    More Info
+                </button>
+                            -->
+            </small>
+        </div>
+    
+    }
+</div>
+
+@if (selectItem != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectItem.Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@selectItem.Img');">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">@selectItem.Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                   @if (voteCount == 0)
+                    {
+                        <span>Be the first to vote!</span>
+                    }
+                    else
+                    {
+                        <span>@voteCount @voteLabel</span>
+                    }
+                    @for (int i = 0; i <= 4; i++)
+                    {
+                        var currentStar = i;
+                        if (i <= currentRating)
+                        {
+                            <span class="fa fa-star checked" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                        else
+                        {
+                            <span class="fa fa-star" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                    }
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code {
+    CatalogItems selectItem;
+    string selectItemId;
+    void SelectItem(string itemId)
+    {
+        selectItemId = itemId;
+        selectItem = CatalogService.GetCatalogItems().First(x => x.Id == itemId);
+        GetCurrentRating();
+    }
+
+    void GetItemID(string itemId)
+    {
+        selectItemId = itemId;
+        selectItem = CatalogService.GetCatalogItems().First(x => x.Id == itemId);
+
+    }
+
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentRating()
+    {
+        if (selectItem.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectItem.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectItem.Ratings.Sum() / voteCount;
+        }
+
+        System.Console.WriteLine($"Current Rating for {selectItem.Id}:{currentRating}");
+    }
+
+    void SubmitRating(int rating)
+    {
+        System.Console.WriteLine($"Rating received for {selectItem.Id}:{rating}");
+        CatalogService.AddRating(selectItemId, rating);
+        SelectItem(selectItemId);
+    }
+
+}

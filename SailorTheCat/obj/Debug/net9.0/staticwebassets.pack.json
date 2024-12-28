@@ -1,0 +1,217 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\data\\Catalog.json",
+      "PackagePath": "staticwebassets\\data\\Catalog.json"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\cat.jpg",
+      "PackagePath": "staticwebassets\\images\\cat.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\pow.jpg",
+      "PackagePath": "staticwebassets\\images\\pow.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor01.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor01.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor02.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor02.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor03.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor03.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor04.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor04.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor05.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor05.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor06.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor06.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor07.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor07.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor08.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor08.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\images\\sailor09.jpg",
+      "PackagePath": "staticwebassets\\images\\sailor09.jpg"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\dotNET\\SailorNet9\\SailorTheCat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SailorTheCat.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SailorTheCat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SailorTheCat.props",
+      "PackagePath": "build\\SailorTheCat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SailorTheCat.props",
+      "PackagePath": "buildMultiTargeting\\SailorTheCat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SailorTheCat.props",
+      "PackagePath": "buildTransitive\\SailorTheCat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
