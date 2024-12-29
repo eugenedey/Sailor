@@ -1,22 +1,22 @@
-# Learn about building .NET container images:
-# https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-ARG TARGETARCH
-WORKDIR /source
-
-# Copy project file and restore as distinct layers
-COPY --link SailorTheCat/*.csproj .
-RUN dotnet restore -a $TARGETARCH
-
-# Copy source code and publish app
-COPY --link SailorTheCat/. .
-RUN dotnet build "SailorTheCat.csproj" -c Release -o /source/SailorTheCat/bin/Release/net9.0/build
-RUN dotnet publish "SailorTheCat.csproj" -c Release -o /source/SailorTheCat/bin/Release/net9.0/publish
-
-# Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:9.0
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS base
+WORKDIR /app
 EXPOSE 8080
-WORKDIR /opt/inetpub/wwwroot
-COPY --from=publish /source/SailorTheCat/bin/Release/net9.0/publish .
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["SailorTheCat/SailorTheCat.csproj", "SailorTheCat/"]
+RUN dotnet restore "./SailorTheCat/SailorTheCat.csproj"
+COPY . .
+WORKDIR "/src/SailorTheCat"
+RUN dotnet build "./SailorTheCat.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./SailorTheCat.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 USER $APP_UID
-ENTRYPOINT ["./SailorTheCat"]
+ENTRYPOINT ["dotnet", "SailorTheCat.dll"]
