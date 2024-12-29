@@ -55,9 +55,9 @@ namespace TestSailor
 
 
         [Theory]
-        [InlineData("Version 1.47")]
+        [InlineData("Version 1.45")]
         [InlineData("NetCore 9.0")]
-        [InlineData("Release 2024 - 12 - 27")]
+        [InlineData("Release 2024 - 12 - 28")]
         public async Task SailorTestHTTPContent(string txtstr)
         {
             //Arrange
