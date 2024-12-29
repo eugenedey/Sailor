@@ -17,6 +17,6 @@ RUN dotnet publish "SailorTheCat.csproj" -c Release -o /source/SailorTheCat/bin/
 FROM mcr.microsoft.com/dotnet/aspnet:9.0
 EXPOSE 8080
 WORKDIR /opt/inetpub/wwwroot
-COPY --from=publish /dotNET/SailorTheCat/bin/Release/net9.0/publish .
+COPY --from=publish /source/SailorTheCat/bin/Release/net9.0/publish .
 USER $APP_UID
 ENTRYPOINT ["./SailorTheCat"]
