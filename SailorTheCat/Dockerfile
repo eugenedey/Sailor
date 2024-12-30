@@ -18,5 +18,5 @@ RUN dotnet publish "./SailorTheCat.csproj" -c $BUILD_CONFIGURATION -o /app/publi
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-USER $APP_UID
+#USER $APP_UID
 ENTRYPOINT ["dotnet", "SailorTheCat.dll"]
