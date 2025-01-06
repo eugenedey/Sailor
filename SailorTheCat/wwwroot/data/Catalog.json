@@ -20,9 +20,7 @@
     "img": "./images/sailor03.jpg",
     "Title": "I like to hunt paper rolls!",
     "Description": "If you want to keep me entertained - give me a paper roll. I will show the real cats\u0027 nature!",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-004",
@@ -43,9 +41,7 @@
     "img": "./images/sailor06.jpg",
     "Title": "I am a great listener.",
     "Description": "Me-ow listen without distractions, don\u0027t pre-judge the messages, keep eyes on the speaker, and communicate interest.",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-007",
@@ -68,8 +64,6 @@
     "img": "./images/sailor09.jpg",
     "Title": "Be Happy and Smile!",
     "Description": "This is my piece of advice to YOU! Thank you for visiting my web site!",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   }
 ]
