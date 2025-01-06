@@ -117,7 +117,7 @@
 
     void GetCurrentRating()
     {
-        if (selectItem.Ratings == null)
+        if (selectItem.Ratings.Count()==0)
         {
             currentRating = 0;
             voteCount = 0;
