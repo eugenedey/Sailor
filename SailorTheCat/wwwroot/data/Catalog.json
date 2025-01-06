@@ -13,9 +13,7 @@
     "img": "./images/sailor02.jpg",
     "Title": "I like IT devices!",
     "Description": "In my house there are a lot of wierd things.They make a lot of weird noises and keep me warm, I like \u0027em!",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-003",
@@ -31,18 +29,14 @@
     "img": "./images/sailor04.jpg",
     "Title": "I like the spooky Halloween!",
     "Description": "All my quality time I spend outside the house. I like walking, hunting, and sleep on the open air.",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-005",
     "img": "./images/sailor05.jpg",
     "Title": "I like sleeping in the Garden.",
     "Description": "Garden is outside, and I like being outside!",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-006",
@@ -67,9 +61,7 @@
     "img": "./images/sailor08.jpg",
     "Title": "I am a great mice hunter!",
     "Description": "No worries, no mice get in the house from the basement!",
-    "Ratings": [
-      4
-    ]
+    "Ratings": []
   },
   {
     "Id": "Sailor-009",
