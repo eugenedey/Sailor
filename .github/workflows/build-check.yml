@@ -18,8 +18,8 @@ jobs:
         uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3.0.0
         with:
           registry: netreg4ed.azurecr.io
-          username: ${{ secrets.az-reg-adm }}
-          password: ${{ secrets.az-reg-pass }}
+          username: ${{ secrets.AZ_REG_ADM }}
+          password: ${{ secrets.AZ_REG_PASS }}
 
       - name: Build and push container image to registry
         uses: docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09 # v5.0.0
