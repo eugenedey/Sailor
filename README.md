@@ -8,6 +8,6 @@ It included creating automated tests (MVC testing, xUnit frameworks), publishing
 You can check out the project here: 
 GitHub Repository (https://github.com/eugenedey/Sailor) 
 GitHub Actions Workflows (https://github.com/eugenedey/Sailor/actions) 
-Deployed Website (https://sailorthecat.calmgrass-471f153e.canadacentral.azurecontainerapps.io) 
+Deployed Website (https://sailor-the-cat.grayriver-0a0a4356.centralus.azurecontainerapps.io/) 
 
 Additionally, there is a sample of basic project management using GitHub Projects. You can view the project board here https://github.com/users/eugenedey/projects/1/views/1
