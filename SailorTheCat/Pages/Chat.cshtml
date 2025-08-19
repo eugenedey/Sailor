@@ -1,0 +1,11 @@
+﻿@page
+@model ChatModel
+@{
+    ViewData["Title"] = "Chat with Cat";
+    var apikey = ViewData["apikey"];
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Sailor is a cat. Please ask something about cats.</p>
+<br>
+<iframe src='https://webchat.botframework.com/embed/SailorCatBot?s=@apikey' style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
